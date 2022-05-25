@@ -1,0 +1,181 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image:url(../Light-Sports/rec/fondo.jpg);
+}
+
+h1 {
+	color: #000000;
+	font-size:140px;
+	margin:0;
+	padding:0;
+	font-family:Imprint MT Shadow;
+}
+
+h2 {
+	color: #01DFD7;
+	font-size:50px;
+	margin:20;
+	padding:0;
+	font-family:Imprint MT Shadow;
+}
+
+#contenedor{
+	width: 1200px;
+	height: 1080px;
+	margin: auto;
+	background:;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+header{
+	width: 1200px;
+	height: 250px;
+	background: yellow;
+	margin-top: 10px;
+}
+#banner{
+	width: 800px;
+	height: 250px;
+	background: url("../Light-Sports/rec/MM1.png");
+	float: left;
+}
+#logo{
+	width: 400px;
+	height: 250px;
+	background: white;
+	float: left;
+}
+
+nav{
+	width: 1200px;
+	height: 80px;
+	background: #000000;
+	margin-top: 00px;
+}
+/*para eliminar los puntos y espacios*/
+nav ul{
+	background:#000;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+/*Para que sea flotante a izquierda */
+nav ul li{
+	float: left;
+	font-size:30px;
+
+}
+
+nav a{
+	color:#fff;
+	text-decoration: none;
+	display:block;
+	padding: 20px 88px;
+}
+
+nav ul li a:hover {
+	background: #ffff;
+	color:#000000;
+}
+
+main{
+	width:1200px;
+	height: 400px;
+	background: green;
+	margin-top: 0px;
+}
+#left-izquierda{
+	width: 50px;
+	height: 870px;
+	background: url("../Light-Sports/rec/MM3.png");
+	float: left;
+}
+article{
+	width: 1100px;
+	height: 870px;
+	float: left;
+	background: url("../Light-Sports/rec/MM2.png");
+}
+#right-derecha{
+	width: 50px;
+	height: 870px;
+	float: left;
+	background: url("../Light-Sports/rec/MM3.png");
+}
+footer{
+	background: #2EFEF7;
+	font-size:20px;
+	clear: both;
+}
+
+.menu2 {
+	width:50px;
+	background:transparent;
+} 
+
+.menu2 {
+	width:92%;
+	list-style:none;
+	font-size: 40px;
+	margin:20;
+	padding:20;
+}
+
+.menu2 li {
+	display:inline-block;
+
+}
+
+.menu2 li a {
+	padding:63px;
+	display:inline-blok;
+	text-decoration: none;
+	color:#fff;
+}
+.menu3 {
+	width:50px;
+	background:transparent;
+} 
+
+.menu3 {
+	width:92%;
+	list-style:none;
+	font-size: 40px;
+	margin:20;
+	padding:20;
+}
+
+.menu3 li {
+	display:inline-block;
+
+}
+
+.menu3 li a {
+	padding: 85px;
+	display:inline-blok;
+	text-decoration: none;
+	color:#fff;
+}
+
+.fin {
+	width:30px
+	background:blue;
+} 
+
+.fin li {
+	display:inline-block;	
+}
+.fin {
+	list-style:none;
+	font-size: 20px;
+}
+.fin li a {
+	padding:63px;
+	display:inline-blok;
+	text-decoration: none;
+	color:#2EFEF7;
+}
